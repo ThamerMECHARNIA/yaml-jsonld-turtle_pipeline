@@ -1,19 +1,27 @@
 [
   {
-    "@id": "http://example.com/book/1",
-    "http://schema.org/author": [
+    "@id": "http://people.example/Homer",
+    "http://schema.org/country": [
       {
-        "@value": "John Doe"
+        "@id": "http://publication.europa.eu/resource/authority/country/ITA"
       }
     ],
-    "http://schema.org/description": [
+    "http://schema.org/full_name": [
       {
-        "@value": "This is a book"
+        "@value": "Homer Simpson"
+      }
+    ]
+  },
+  {
+    "@id": "http://people.example/Lisa",
+    "http://schema.org/country": [
+      {
+        "@id": "http://publication.europa.eu/resource/authority/country/ITA"
       }
     ],
-    "http://schema.org/name": [
+    "http://schema.org/full_name": [
       {
-        "@value": "Book Title"
+        "@value": "Lisa Simpson"
       }
     ]
   }

@@ -1,6 +1,9 @@
-@prefix ns1: <http://schema.org/> .
+@prefix : <http://schema.org/> .
+@prefix countries: <http://publication.europa.eu/resource/authority/country/> .
 
-<http://example.com/book/1> ns1:author "John Doe" ;
-    ns1:description "This is a book" ;
-    ns1:name "Book Title" .
+<http://people.example/Homer> :country countries:ITA ;
+    :full_name "Homer Simpson" .
+
+<http://people.example/Lisa> :country countries:ITA ;
+    :full_name "Lisa Simpson" .
 

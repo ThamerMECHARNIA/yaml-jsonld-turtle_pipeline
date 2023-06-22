@@ -1,20 +1,25 @@
-[
-  {
-    "@id": "http://example.com/book/1",
-    "http://schema.org/author": [
-      {
-        "@value": "John Doe"
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "countries": "http://publication.europa.eu/resource/authority/country/"
+  },
+  "@graph": [
+    {
+      "@id": "countries:ITA"
+    },
+    {
+      "@id": "http://people.example/Homer",
+      "full_name": "Homer Simpson",
+      "country": {
+        "@id": "countries:ITA"
       }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "This is a book"
+    },
+    {
+      "@id": "http://people.example/Lisa",
+      "full_name": "Lisa Simpson",
+      "country": {
+        "@id": "countries:ITA"
       }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Book Title"
-      }
-    ]
-  }
-]
+    }
+  ]
+}
