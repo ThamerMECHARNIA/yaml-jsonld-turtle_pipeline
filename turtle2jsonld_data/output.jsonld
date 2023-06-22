@@ -1,18 +1,5 @@
 [
   {
-    "@id": "http://people.example/Homer",
-    "http://schema.org/country": [
-      {
-        "@id": "http://publication.europa.eu/resource/authority/country/ITA"
-      }
-    ],
-    "http://schema.org/full_name": [
-      {
-        "@value": "Homer Simpson"
-      }
-    ]
-  },
-  {
     "@id": "http://people.example/Lisa",
     "http://schema.org/country": [
       {
@@ -22,6 +9,19 @@
     "http://schema.org/full_name": [
       {
         "@value": "Lisa Simpson"
+      }
+    ]
+  },
+  {
+    "@id": "http://people.example/Homer",
+    "http://schema.org/country": [
+      {
+        "@id": "http://publication.europa.eu/resource/authority/country/ITA"
+      }
+    ],
+    "http://schema.org/full_name": [
+      {
+        "@value": "Homer Simpson"
       }
     ]
   }

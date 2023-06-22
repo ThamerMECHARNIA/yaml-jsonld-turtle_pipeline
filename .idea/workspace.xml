@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/input.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml_data/input.jsonld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/output.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml_data/output.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,6 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Personal documents/MyWork/EMSE/pipline/yaml-jsonld-turtle_pipeline",
