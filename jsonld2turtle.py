@@ -18,8 +18,8 @@ def jsonld2turtle(jsonld_file, turtle_file):
     return turtle_data
 
 def main():
-    jsonld_file = 'input.jsonld'
-    turtle_file = 'output.ttl'
+    jsonld_file = "jsonld2turtle_data/input.jsonld"
+    turtle_file = "jsonld2turtle_data/output.ttl"
 
     # Convert JSON-LD to Turtle
     turtle_data = jsonld2turtle(jsonld_file, turtle_file)
