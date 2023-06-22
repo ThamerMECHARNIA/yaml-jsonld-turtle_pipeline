@@ -20,7 +20,7 @@ def json2yaml(json_file, yaml_file):
 
 
 def main():
-    json_file = "json2yaml_data/input.json"
+    json_file = "json2yaml_data/input.jsonld"
     yaml_file = "json2yaml_data/output.yaml"
 
     # Convert JSON to YAML

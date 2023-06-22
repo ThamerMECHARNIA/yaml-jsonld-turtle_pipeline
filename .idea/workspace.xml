@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/output.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/input.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/input.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.jsonld" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/json2yaml_data/input.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json2yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/jsonld2turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml_data/output.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
