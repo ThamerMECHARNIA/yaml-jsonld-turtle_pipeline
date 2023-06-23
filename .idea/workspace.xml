@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yaml2json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2json_data/input - Copie.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2json_data/input.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2json_data/output - Copie.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2json_data/output.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2turle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml2turtle_data/input.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/input_Vladimir.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json_data/input - Copie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json_data/input.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2json_data/input.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json_data/output - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2turle.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2turle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
