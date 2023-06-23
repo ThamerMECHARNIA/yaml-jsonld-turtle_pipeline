@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/yaml2json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/input - Copie.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/input.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/output - Copie.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/output.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2turle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2turtle_data/input.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,10 +48,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Personal documents/MyWork/EMSE/pipline/yaml-jsonld-turtle_pipeline",
+    "last_opened_file_path": "D:/Personal documents/MyWork/Post-doctorat EMSE/pipline/yaml-jsonld-turtle_pipeline/yaml2turtle_data",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal documents\MyWork\Post-doctorat EMSE\pipline\yaml-jsonld-turtle_pipeline\yaml2turtle_data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
