@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="" />
+    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test1.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test2.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yaml2json_data/output/test.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/input/test1 - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test1 - Copie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/jsonld2turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2json.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

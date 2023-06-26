@@ -1,8 +1,9 @@
 import os
+import sys
 
 from rdflib import Graph
 
-def turtle2jsonld(turtle_file, jsonld_file):
+def turtle2jsonld(turtle_file, jsonld_file, save):
     # Create an RDF graph
     graph = Graph()
 
@@ -11,13 +12,16 @@ def turtle2jsonld(turtle_file, jsonld_file):
 
     # Serialize the graph to JSON-LD format
     jsonld_data = graph.serialize(format='json-ld').encode('utf-8')
-    graph.serialize(destination=jsonld_file, format='json-ld')
+    if save:
+        graph.serialize(destination=jsonld_file, format='json-ld')
 
     return jsonld_data
 
 
 
 def main():
+    args = sys.argv[1:]
+
     input_path = 'turtle2jsonld_data/input/'
     output_path = 'turtle2jsonld_data/output/'
 
@@ -29,7 +33,7 @@ def main():
         output_file = output_path + file[:file.find('.')] + '.jsonld'
 
         # Convert Turtle to JSON-LD
-        jsonld_data = turtle2jsonld(input_file, output_file)
+        jsonld_data = turtle2jsonld(input_file, output_file, '-s' in args)
         print('The input file: ', input_file, ' converted to:\n', jsonld_data, '\n------------------------------')
 
 

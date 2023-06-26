@@ -1,9 +1,10 @@
 import json
 import os
+import sys
 
 import yaml
 
-def json2yaml(json_file, yaml_file):
+def json2yaml(json_file, yaml_file, save):
 
     # Read json
     file = open(json_file, 'r')
@@ -15,15 +16,18 @@ def json2yaml(json_file, yaml_file):
     # print(yaml_string)
     file.close()
 
-    # Write yaml
-    fileOut = open(yaml_file, 'w')
-    fileOut.write(yaml_string)
-    fileOut.close()
+    if save:
+        # Write yaml
+        fileOut = open(yaml_file, 'w')
+        fileOut.write(yaml_string)
+        fileOut.close()
 
     return yaml_string
 
 
 def main():
+    args = sys.argv[1:]
+
     input_path = 'json2yaml_data/input/'
     output_path = 'json2yaml_data/output/'
 
@@ -35,7 +39,7 @@ def main():
         output_file = output_path + file[:file.find('.')] + '.yaml'
 
         # Convert JSON to YAML
-        yaml_string = json2yaml(input_file, output_file)
+        yaml_string = json2yaml(input_file, output_file, '-s' in args)
         print('The input file: ', input_file, ' converted to:\n', yaml_string, '\n------------------------------')
 
 

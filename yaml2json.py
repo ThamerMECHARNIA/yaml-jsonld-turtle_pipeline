@@ -1,22 +1,26 @@
 import json
 import os
+import sys
 
 import yaml
 
-def yaml2json(yaml_file, json_file):
+def yaml2json(yaml_file, json_file, save):
 
     with open(yaml_file, 'r') as yaml_file:
         data = yaml.safe_load(yaml_file)
         yaml_file.close()
 
-    with open(json_file, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-        json_file.close()
+    if save:
+        with open(json_file, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+            json_file.close()
 
-        return data
+    return data
 
 
 def main():
+    args = sys.argv[1:]
+
     input_path = 'yaml2json_data/input/'
     output_path = 'yaml2json_data/output/'
 
@@ -28,7 +32,7 @@ def main():
         output_file = output_path + file[:file.find('.')] + '.jsonld'
 
         # Convert JSON to YAML
-        json_data = yaml2json(input_file, output_file)
+        json_data = yaml2json(input_file, output_file, '-s' in args)
         print('The input file: ', input_file, ' converted to:\n', json_data, '\n------------------------------')
 
 
