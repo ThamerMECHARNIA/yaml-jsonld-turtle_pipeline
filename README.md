@@ -1,6 +1,6 @@
 # yaml-jsonld-turtle_pipeline
 
-## Requirments
+## Requirements for local utilisation
 
 - Python 3.7+
 - Run `pip install -r requirements.txt` to install the requirements (`pyyaml` and `rdflib`)
