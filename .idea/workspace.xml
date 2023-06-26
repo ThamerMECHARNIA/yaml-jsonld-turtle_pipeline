@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test1.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test2.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output/test1.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output/test2.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2json_data/output/test.jsonld" beforeDir="false" />
-    </list>
+    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
