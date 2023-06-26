@@ -1,3 +1,5 @@
+import os
+
 from rdflib import Graph
 
 def turtle2jsonld(turtle_file, jsonld_file):
@@ -16,12 +18,20 @@ def turtle2jsonld(turtle_file, jsonld_file):
 
 
 def main():
-    jsonld_file = "turtle2jsonld_data/output.jsonld"
-    turtle_file = "turtle2jsonld_data/input.ttl"
+    input_path = 'turtle2jsonld_data/input/'
+    output_path = 'turtle2jsonld_data/output/'
 
-    # Convert Turtle to JSON-LD
-    jsonld_data = turtle2jsonld(turtle_file, jsonld_file)
-    print(jsonld_data)
+    # get a list of all files in the input dir 'turtle2jsonld_data/input'
+    files = os.listdir(input_path)
+
+    for file in files:
+        input_file = input_path + file
+        output_file = output_path + file[:file.find('.')] + '.jsonld'
+
+        # Convert Turtle to JSON-LD
+        jsonld_data = turtle2jsonld(input_file, output_file)
+        print('The input file: ', input_file, ' converted to:\n', jsonld_data, '\n------------------------------')
+
 
 if __name__ == '__main__':
     main()

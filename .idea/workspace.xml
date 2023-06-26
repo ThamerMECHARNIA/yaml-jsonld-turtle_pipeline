@@ -4,12 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yaml2json_data/input_Vladimir.yaml" afterDir="false" />
+    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/json2yaml_data/input/test1.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json2yaml_data/input/test2.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json2yaml_data/output/test1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json2yaml_data/output/test2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/input/test1.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/input/test2.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test1.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test2.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/input/test1.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/input/test2.ttl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2json_data/input - Copie.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2json_data/input.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2json_data/input.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2json_data/output - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/input - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/input.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output - Copie.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/jsonld2turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/input - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/input.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output - Copie.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/input - Copie.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/input.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output - Copie.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yaml2turle.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2turle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +43,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2RYrG3p9TO1jTS7ZKUkVLVEpPQ3" />
+  <component name="ProjectId" id="2RkEs8INwpuXhFLE2Z9a3icY0YJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -43,24 +62,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Personal documents/MyWork/Post-doctorat EMSE/pipline/yaml-jsonld-turtle_pipeline/yaml2turtle_data",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Personal documents\MyWork\Post-doctorat EMSE\pipline\yaml-jsonld-turtle_pipeline\yaml2turtle_data" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2b3d481-a3f8-4b5f-9a4f-2dfaf2aab824" name="Changes" comment="" />
-      <created>1687437756880</created>
+      <changelist id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="" />
+      <created>1687785882896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687437756880</updated>
+      <updated>1687785882896</updated>
     </task>
     <servers />
   </component>
