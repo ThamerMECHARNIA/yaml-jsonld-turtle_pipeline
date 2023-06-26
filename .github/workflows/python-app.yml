@@ -37,3 +37,12 @@ jobs:
     - name: Run json2yaml to convert all files in 'json2yaml_data/input'
       run: |
         python3 json2yaml.py
+    - name: Run jsonld2turtle to convert all files in 'jsonld2turtle_data/input'
+      run: |
+        python3 jsonld2turtle.py
+    - name: Run turtle2jsonld to convert all files in 'turtle2jsonld_data/input'
+      run: |
+        python3 turtle2jsonld.py
+    - name: Run yaml2json to convert all files in 'yaml2json_data/input'
+      run: |
+        python3 yaml2json.py
