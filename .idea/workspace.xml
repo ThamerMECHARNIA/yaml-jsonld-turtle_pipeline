@@ -5,43 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/input/test1.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/input/test2.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/output/test1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json2yaml_data/output/test2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/input/test1.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/input/test2.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test1.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonld2turtle_data/output/test2.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/input/test1.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/input/test2.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/json2yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/input - Copie.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/input.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/output - Copie.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json2yaml_data/output.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/jsonld2turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/input - Copie.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/input.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output - Copie.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/input - Copie.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/input.ttl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output - Copie.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output.jsonld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2json.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml2turle.py" beforeDir="false" afterPath="$PROJECT_DIR$/yaml2turle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json2yaml_data/output/test2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output/test1.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonld2turtle_data/output/test2.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yaml2json_data/output/test.jsonld" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
