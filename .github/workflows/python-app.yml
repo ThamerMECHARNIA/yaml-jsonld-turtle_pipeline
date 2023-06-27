@@ -46,3 +46,6 @@ jobs:
     - name: Run yaml2json to convert all files in 'yaml2json_data/input'
       run: |
         python3 yaml2json.py
+    - name: Run yaml2turtle to convert all files in 'yaml2turtle_data/input'
+      run: |
+        python3 yaml2turtle.py
