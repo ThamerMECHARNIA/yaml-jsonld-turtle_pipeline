@@ -51,3 +51,9 @@ jobs:
     - name: Run yaml2turtle to convert all files in 'yaml2turtle_data/input'
       run: |
         python3 thamer_experiments/yaml2turtle.py -a
+    - name: Run jsonvalidator to validate all files in 'jsonvalidator_data'
+      run: |
+        python3 thamer_experiments/jsonvalidator.py -a
+    - name: Run yamlvalidator to validate all files in 'yamlvalidator_data'
+      run: |
+        python3 thamer_experiments/yamlvalidator.py -a

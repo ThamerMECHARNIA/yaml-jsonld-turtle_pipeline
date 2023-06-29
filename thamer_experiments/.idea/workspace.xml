@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="" />
+    <list default="true" id="b01b9e72-569d-44a6-aa32-e471edc4fd20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jsonvalidator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonvalidator_data/test.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema_files/schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamlvalidator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yamlvalidator_data/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yaml-jsonld-turtle_pipeline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test1.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/turtle2jsonld_data/output/test2.jsonld" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +53,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/thamer.mecharnia/Documents/Seafile/Travail/testaction/thamer_experiments"
+    "last_opened_file_path": "C:/Users/thamer.mecharnia/Documents/Seafile/Travail/yaml-jsonld-turtle_pipeline/thamer_experiments/yamlvalidator_data"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thamer.mecharnia\Documents\Seafile\Travail\yaml-jsonld-turtle_pipeline\thamer_experiments\yamlvalidator_data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
