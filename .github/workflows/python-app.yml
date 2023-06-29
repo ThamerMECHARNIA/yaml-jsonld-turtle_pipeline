@@ -6,8 +6,10 @@ name: Python application
 on:
   push:
     branches: [ "main" ]
+    paths: ['thamer_experiments/**']
   pull_request:
     branches: [ "main" ]
+    paths: ['thamer_experiments/**']
 
 permissions:
   contents: read
@@ -27,7 +29,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f thamer_experiments/requirements.txt ]; then pip install -r thamer_experiments/requirements.txt; fi
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -36,16 +38,16 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run json2yaml to convert all files in 'json2yaml_data/input'
       run: |
-        python3 json2yaml.py
+        python3 thamer_experiments/json2yaml.py -a
     - name: Run jsonld2turtle to convert all files in 'jsonld2turtle_data/input'
       run: |
-        python3 jsonld2turtle.py
+        python3 thamer_experiments/jsonld2turtle.py -a
     - name: Run turtle2jsonld to convert all files in 'turtle2jsonld_data/input'
       run: |
-        python3 turtle2jsonld.py
+        python3 thamer_experiments/turtle2jsonld.py -a
     - name: Run yaml2json to convert all files in 'yaml2json_data/input'
       run: |
-        python3 yaml2json.py
+        python3 thamer_experiments/yaml2json.py -a
     - name: Run yaml2turtle to convert all files in 'yaml2turtle_data/input'
       run: |
-        python3 yaml2turtle.py
+        python3 thamer_experiments/yaml2turtle.py -a

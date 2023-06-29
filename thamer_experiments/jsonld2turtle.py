@@ -26,8 +26,12 @@ def jsonld2turtle(jsonld_file, turtle_file, save):
 def main():
     args = sys.argv[1:]
 
-    input_path = 'jsonld2turtle_data/input/'
-    output_path = 'jsonld2turtle_data/output/'
+    if '-a' in args:
+        input_path = 'thamer_experiments/jsonld2turtle_data/input/'
+        output_path = 'thamer_experiments/jsonld2turtle_data/output/'
+    else:
+        input_path = 'jsonld2turtle_data/input/'
+        output_path = 'jsonld2turtle_data/output/'
 
     # get a list of all files in the input dir 'jsonld2turtle_data/input'
     files = os.listdir(input_path)
